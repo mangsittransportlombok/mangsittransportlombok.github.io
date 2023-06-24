@@ -2,6 +2,6 @@
 
 deployment:
  tasks:
-  - export DEPLOYPATH=/home/MAAN9011/public_html/
+  - export DEPLOYPATH=/home/maan9011/public_html/
   - /bin/cp index.html $DEPLOYPATH
   - /bin/cp -R assets $DEPLOYPATH
